@@ -2,6 +2,7 @@
 The jupyter notebook enclosed in this repository presents solutions and extensions to Task 2 of the October 2021 QOSF (Quantum Open Source Foundation) Mentorship Application.
 
 Task 2 Description: Train a variational quantum circuit to transform 4 random 4-qubit input states to the following target states:
+
 |0011>
 |0101>
 |1010>
