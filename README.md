@@ -1,5 +1,5 @@
 # QOSF_Mentorship-Application_Task-2
-The jupyter notebook (SEP2021 QSOF Task 2-Karan Khendry.ipynb) enclosed in this repository presents solutions and extensions to Task 2 of the October 2021 QOSF (Quantum Open Source Foundation) Mentorship Application.
+The IPython notebook (SEP2021 QSOF Task 2-Karan Khendry.ipynb) enclosed in this repository presents solutions and extensions to Task 2 of the October 2021 QOSF (Quantum Open Source Foundation) Mentorship Application.
 
 Task 2 Description: Train a variational quantum circuit to transform 4 random 4-qubit input states to the following target states:
 
@@ -8,7 +8,7 @@ Task 2 Description: Train a variational quantum circuit to transform 4 random 4-
 |1010>
 |1100>
 
-The solutions presented below make use of the Qiskit open-source SDK and draws inspiration from [1] ["A generative modeling approach for benchmarking and training shallow quantum circuits"](https://www.nature.com/articles/s41534-019-0157-8.pdf). 
+The solutions presented below make use of the Qiskit open-source SDK and draws inspiration from [1] ["A generative modeling approach for benchmarking and training shallow quantum circuits"](https://www.nature.com/articles/s41534-019-0157-8.pdf). Please ensure that the Qiskit SDK is installed on your system in order to run the IPython notebook. Qiskit can be installed with the command 'pip install qiskit' preferably run from an virtual environment such as 'conda activate quantum_env' (requires anaconda).
 
 Section 1 builds up the overall problem structure and present a solution which uses a simplified version of the data driven approach taken in [1]. In section the problem structure, cost functions, gradient functions and optimizers are built without the use of any ML (Machine Learning) libraries such as Tensorflow or Pytorch. The optimizer and gradient fucntions have in built flexibility to allow for investigation of the best solution through hyperparameter tuning and gradient evaluation. The executed cells below present a finite different gradient descent approach using a TwoLocal ansatz made up of RX, RY and CX gates. The results of section 1 demonstrate a solution that performs the task fairly well but can certainly be improved through further investigation into the ansatz, gradient function and optimizer.
 
