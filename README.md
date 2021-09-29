@@ -1,5 +1,5 @@
 # QOSF_Mentorship-Application_Task-2
-The jupyter notebook enclosed in this repository presents solutions and extensions to Task 2 of the October 2021 QOSF (Quantum Open Source Foundation) Mentorship Application.
+The jupyter notebook (SEP2021 QSOF Task 2-Karan Khendry.ipynb) enclosed in this repository presents solutions and extensions to Task 2 of the October 2021 QOSF (Quantum Open Source Foundation) Mentorship Application.
 
 Task 2 Description: Train a variational quantum circuit to transform 4 random 4-qubit input states to the following target states:
 
